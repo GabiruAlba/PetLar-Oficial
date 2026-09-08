@@ -1,0 +1,140 @@
+/*ESTILO GERAL DA PETLAR/*
+
+/* Configurações básicas da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+/*CABEÇALHO*/
+
+header {
+    background-color: #6f42c1;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+
+/*   MENU DE NAVEGAÇÃO*/
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/*   CONTEÚDO PRINCIPAL*/
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+main h2 {
+    color: #6f42c1;
+    margin-bottom: 25px;
+}
+
+main h3 {
+    color: #495057;
+}
+
+
+/*   SEÇÕES*/
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/*   PRODUTOS E SERVIÇOS*/
+
+article {
+    margin-bottom: 25px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/*   RODAPÉ*/
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer nav {
+    margin-top: 15px;
+}
+
+footer nav a {
+    color: white;
+}
+
+
+/*   RESPONSIVIDADE*/
+/* Ajustes para telas menores, como celulares */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        padding: 25px 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
+/*SETAS DO CARROSSEL*/
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
